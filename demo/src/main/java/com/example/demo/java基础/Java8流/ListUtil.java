@@ -1,4 +1,4 @@
-package com.example.demo.Stream;
+package com.example.demo.java基础.Java8流;
 
 import java.util.*;
 import java.util.function.Function;

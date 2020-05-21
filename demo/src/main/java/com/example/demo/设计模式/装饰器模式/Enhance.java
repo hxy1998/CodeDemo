@@ -12,6 +12,7 @@ public abstract class Enhance implements Hero{
         this.hero = hero;
     }
 
+    @Override
     public void behavior(){
         hero.behavior();
     }

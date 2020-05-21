@@ -1,4 +1,4 @@
-package com.example.demo.乐观锁_CAS;
+package com.example.demo.自旋锁;
 
 import lombok.Data;
 

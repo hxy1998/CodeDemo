@@ -1,12 +1,10 @@
-package com.example.demo.java8新时间类.LocalDate;
+package com.example.demo.java基础.java8新时间类.LocalDate;
 
 import org.junit.Test;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-import java.time.temporal.ChronoField;
-import java.time.temporal.ChronoUnit;
 
 public class LocalDateTest {
 

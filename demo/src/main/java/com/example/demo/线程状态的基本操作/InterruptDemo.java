@@ -23,8 +23,8 @@ public class InterruptDemo {
         thread1.start();
         Thread.sleep(1000);
         thread2.start();
-        while(thread1.isInterrupted()) {
-            System.out.println("抓到了");
+        synchronized (InterruptDemo.class) {
+            InterruptDemo.class.wait();
         }
     }
 
